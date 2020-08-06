@@ -58,3 +58,17 @@ div.Date {
 
 
 }
+
+.City {
+    display: block;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.StateProRe {
+    display: block;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
