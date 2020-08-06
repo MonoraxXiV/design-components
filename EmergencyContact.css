@@ -5,3 +5,51 @@ header {
 hr {
     border-top: 1px dotted lightgray;
 }
+
+form {
+
+}
+
+.fieldBlockOwnName {
+    display: block;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.fieldBlockLastName {
+    display: block;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.fieldBlock {
+    display: block;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.fieldBlock2 {
+    display: block;
+    float: left;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+.fieldBlock3 {
+    display: block;
+    float: bottom;
+    margin-left: 120px;
+}
+
+
+input {
+    border: 1px solid gray;
+    font-size: 1.1em;
+}
+
+p {
+    font-weight: bold;
+}
