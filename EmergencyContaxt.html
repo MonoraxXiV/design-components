@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> Emergency contact and Medical Information</title>
+    <title> Emergency contact and Medical Information</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="EmergencyContact.css">
 </head>
 <body>
 <header>
-<h1>Emergency Contact and Medical Information</h1>
+    <h1>Emergency Contact and Medical Information</h1>
 </header>
 <hr>
 <p>Name</p>
+<div class="fieldBlockOwnName">
+    <input id="Fname" value="" size="5"/>
+    <div class="title">First</div>
+</div>
+
+<div class="fieldBlockOwnLName">
+    <input id="LName" value="" size="15"/>
+    <div class="title">Last</div>
+</div>
+
+<p>Gender</p>
+<div class="fieldBlock">
+    <input id="FnameContact" value="" size="5"/>
+    <div class="title">First</div>
+</div>
+
+<div class="fieldBlock2">
+    <input id="LNameContact" value="" size="15"/>
+    <div class="title">Last</div>
+</div>
+<div class="fieldBlock3">
+    <input id="Relationship" value="" size="50"/>
+    <div class="title">Relationship</div>
+</div>
+
+<p>Address</p>
+
+<form>
+    <input type="text" id="Addressline1" name="street" size="100"><br>
+    <label for="AddressLine1">Street Address:</label><br>
+</form>
+<form>
+    <input type="text" id="AddressLine2" name="street" size="100"><br>
+    <label for="AddressLine2">Address line 2:</label><br>
+</form>
 
 </body>
 </html>
