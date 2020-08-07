@@ -73,16 +73,31 @@ div.Date {
     padding-right: 10px;
     padding-bottom: 10px;
 }
+
 .GenderDate {
-    display:block;
+    display: block;
+}
+.gender {
+    float: left;
+    margin-right:25px;
+}
+.date {
+    float: left;
+
+
 }
 
-.date{
- float:right;
 
 
+.codeAndCountry {
+    display: block;
 }
 
-.gender{
-   float:left;
+.code {
+    float: left;
+    margin-right:25px;
+}
+
+.country {
+    float:left;
 }
