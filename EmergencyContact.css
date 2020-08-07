@@ -25,21 +25,22 @@ form {
 }
 
 .fieldBlock {
-    display: block;
+    display: flex;
     float: left;
     padding-right: 10px;
     padding-bottom: 10px;
 }
 
 .fieldBlock2 {
-    display: block;
+    display: flex;
     float: left;
     padding-right: 100px;
     padding-bottom: 10px;
 }
 
 .fieldBlock3 {
-    display: block;
+    display: flex;
+    align-self: flex-end;
     float: bottom;
     margin-left: 120px;
 }
@@ -71,4 +72,17 @@ div.Date {
     float: left;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+.GenderDate {
+    display:block;
+}
+
+.date{
+ float:right;
+
+
+}
+
+.gender{
+   float:left;
 }
