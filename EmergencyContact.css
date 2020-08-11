@@ -90,14 +90,19 @@ div.Date {
 
 
 .codeAndCountry {
-    display: block;
+    display:flex;
+
 }
 
-.code {
-    float: left;
-    margin-right:25px;
+.code+country {
+    margin-left: 26px;
 }
 
-.country {
-    float:left;
+.Number{
+    display: flex;
 }
+
+.home + .work {
+    margin-left: 195px;
+}
+
