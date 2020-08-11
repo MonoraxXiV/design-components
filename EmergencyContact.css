@@ -2,8 +2,13 @@ header {
     font-weight: bold;
 }
 
+body{
+    width:640px;
+}
+
 hr {
     border-top: 1px dotted lightgray;
+    width:100%;
 }
 
 form {
@@ -55,54 +60,45 @@ p {
     font-weight: bold;
 }
 
-div.Date {
-
-
+.CityState {
+    display: flex;
 }
 
-.City {
-    display: block;
-    float: left;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-
-.StateProRe {
-    display: block;
-    float: left;
-    padding-right: 10px;
-    padding-bottom: 10px;
+.City + .StateProRe{
+    margin-left: 26px;
 }
 
 .GenderDate {
-    display: block;
+    display: flex;
 }
-.gender {
-    float: left;
-    margin-right:25px;
-}
-.date {
-    float: left;
 
-
+.gender +date {
+ margin-left:26px;
 }
+
 
 
 
 .codeAndCountry {
-    display:flex;
-
-}
-
-.code+country {
-    margin-left: 26px;
-}
-
-.Number{
     display: flex;
 }
 
-.home + .work {
-    margin-left: 195px;
+.code + country {
+    margin-left: 26px;
+    margin-top: 20px;
 }
+
+.Number {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.home + work {
+ margin-left: 24px;
+}
+
+
+
 
