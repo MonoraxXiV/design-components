@@ -42,14 +42,17 @@
     <div date>
 
         <form>
-            <input type="number" id="month" size="3"/>
-            <input type="number" id="day" size="3"/>
-            <input type="number" id="year" size="3"/>
+            <input type="text" id="month" size="3px"/>
+            /
+            <input type="text" id="day" size="3"/>
+            /
+            <input type="text" id="year" size="3"/>
         </form>
     </div>
 </div>
 <br>
 <br>
+<hr>
 <p>Emergency contact</p>
 <p>Name</p>
 
@@ -79,7 +82,7 @@
     <input type="text" id="AddressLine2" name="street" size="100"><br>
     <label for="AddressLine2">Address line 2:</label><br>
 </form>
-
+<div class="CityState">
 <div class="City">
     <input type="text" id="City" value="" size="45"/>
     <div class="title">City</div>
@@ -88,6 +91,7 @@
 <div class="StateProRe">
     <input type="text" id="StateProRe" value="" size="45"/>
     <div class="title">State/ Province/ Region</div>
+</div>
 </div>
 <br>
 <div class="codeAndCountry">
@@ -349,5 +353,31 @@
         </select>
     </div>
 </div>
+<br>
+
+<div class="Number">
+    <div class="home">
+        <form>
+            <input type="text" id="homenr1" size="1"/>
+            -
+            <input type="text" id="homenr2" size="1"/>
+            -
+            <input type="text" id="homenr3" size="1"/>
+        </form>
+    </div>
+
+    <div class="work">
+        <form>
+            <input type="text" id="worknr1" size="1"/>
+            -
+            <input type="text" id="worknr2" size="1"/>
+            -
+            <input type="text" id="worknr3" size="1"/>
+        </form>
+    </div>
+</div>
+<hr>
+<br>
+<p>Medical information</p>
 </body>
 </html>
