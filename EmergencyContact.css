@@ -2,13 +2,13 @@ header {
     font-weight: bold;
 }
 
-body{
-    width:640px;
+body {
+    width: 640px;
 }
 
 hr {
     border-top: 1px dotted lightgray;
-    width:100%;
+    width: 100%;
 }
 
 form {
@@ -64,7 +64,7 @@ p {
     display: flex;
 }
 
-.City + .StateProRe{
+.City + .StateProRe {
     margin-left: 26px;
 }
 
@@ -72,11 +72,9 @@ p {
     display: flex;
 }
 
-.gender +date {
- margin-left:26px;
+.gender + date {
+    margin-left: 26px;
 }
-
-
 
 
 .codeAndCountry {
@@ -91,14 +89,22 @@ p {
 .Number {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .home + work {
- margin-left: 24px;
+    margin-left: 24px;
 }
 
+.InsurancePolicy {
+    display: flex;
+    margin-top: 16px;
+}
 
+.Insurance + .Policy {
+    margin-left: 26px;
+
+}
 
 
