@@ -117,5 +117,17 @@ p {
 
 .PhysicianName + .PhysicianNumber{
     margin-left: 1px;
+    margin-left: 26px
 }
 
+
+textarea {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    Height:105px;
+}
+
+input{
+    margin-top: 16px;
+}
